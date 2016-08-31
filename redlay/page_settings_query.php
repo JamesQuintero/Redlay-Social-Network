@@ -16,7 +16,7 @@ if($num==1)
     if(!empty($current) && !empty($new) && !empty($confirm_new))
     {
         //blowfish hashes password for database storage
-        $current=crypt($password, '$2a$07$27'.$email.'cad37e8a5fc1');
+        $current=crypt($password, '$2a$07$27'.$email.'SECRET_SALT_STRING');
 
 
         $query=mysql_query("SELECT id FROM pages WHERE password='$current' AND id=$_SESSION[page_id] LIMIT 1");
@@ -25,7 +25,7 @@ if($num==1)
             if($new==$confirm_new)
            {
               //blowfish hashes password for database storage
-                $new=crypt($password, '$2a$07$27'.$email.'cad37e8a5fc1');
+                $new=crypt($password, '$2a$07$27'.$email.'SECRET_SALT_STRING');
 
               $query=mysql_query("UPDATE pages SET password='$new' WHERE id=$_SESSION[page_id]");
               if($query)

@@ -19,7 +19,7 @@ if((!empty($_POST['email'])) && (!empty($_POST['password'])))
 {
     //uses blowfish to hash the password for verification
     //salt will be truncated if over 22 characters
-    $password=crypt($password, '$2a$07$27'.$email.'cad37e8a5fc1');
+    $password=crypt($password, '$2a$07$27'.$email.'SECRET_SALT_STRING');
     
     //check previous logins
     $valid=false;

@@ -41,7 +41,7 @@ if($name!=''&&$email!=''&&$type!=''&&$password!=''&&$confirm_password!='')
                         $confirm_code=sha1(uniqid(rand()));
 
                         //blowfish hashes password for database storage
-                        $password=crypt($password, '$2a$07$27'.$email.'cad37e8a5fc1');
+                        $password=crypt($password, '$2a$07$27'.$email.'SECRET_SALT_STRING');
 
                         if($type!='Other')
                             $other_type='';

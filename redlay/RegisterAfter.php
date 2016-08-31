@@ -46,7 +46,7 @@ if(isset($_POST['firstName'])&&$firstName!='')
 
                                     //blowfish hashes password for database storage
                                     //salt consists of email and hardcoded string
-                                    $password=crypt($password, '$2a$07$27'.$email.'cad37e8a5fc1');
+                                    $password=crypt($password, '$2a$07$27'.$email.'SECRET_SALT_STRING');
 
 
                                     $result=mysql_query("INSERT INTO temp_users SET passkey='$confirm_code', firstName='$firstName', lastName='$lastName', password='$password', email='$email', timestamp='".get_date()."', email_resend='".get_date()."'");

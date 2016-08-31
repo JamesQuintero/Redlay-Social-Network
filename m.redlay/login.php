@@ -15,7 +15,7 @@ if((!empty($_POST['email'])) && (!empty($_POST['password'])))
 {
     //uses blowfish to hash the password for verification
     //salt will be truncated if over 22 characters
-    $password=crypt($password, '$2a$07$27'.$email.'cad37e8a5fc1');
+    $password=crypt($password, '$2a$07$27'.$email.'SECRET_SALT_STRING');
 
     $query=mysql_query("SELECT id, ip_addresses, account_id FROM users WHERE email='$email' AND password='$password' LIMIT 1");
     if($query&&mysql_num_rows($query)==1)
