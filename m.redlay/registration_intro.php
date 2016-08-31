@@ -55,20 +55,6 @@ if($query&&mysql_num_rows($query)==1)
                 $('.header_text').css('color', '<?php echo $color; ?>');
                 
             }
-
-            // Prevent "event.layerX and event.layerY are broken and deprecated in WebKit. They will be removed from the engine in the near future."
-            // in latest Chrome builds.
-            (function () {
-                // remove layerX and layerY
-                var all = $.event.props,
-                len = all.length,
-                res = [];
-                while (len--) {
-                    var el = all[len];
-                    if (el != 'layerX' && el != 'layerY') res.push(el);
-                }
-                $.event.props = res;
-            } ());
             function hide_steps()
             {
                 $('#step_1').hide();
@@ -166,125 +152,125 @@ if($query&&mysql_num_rows($query)==1)
             {
                 var errors='';
                 //changes birthday
-                        if($('#birthday_checkbox').attr('src')=='./pictures/gray_checkbox_checked.png')
-                            var string="yes";
-                        else
-                            var string="no";
-                        $.post('main_access.php',
-                        {
-                            access:35,
-                            num:3,
-                            month: $('#registration_intro_month').val(),
-                            day: $('#registration_intro_day').val(),
-                            year: $('#registration_intro_year').val(),
-                            show_year: string
+                if($('#birthday_checkbox').attr('src')=='./pictures/gray_checkbox_checked.png')
+                    var string="yes";
+                else
+                    var string="no";
+                $.post('main_access.php',
+                {
+                    access:35,
+                    num:3,
+                    month: $('#registration_intro_month').val(),
+                    day: $('#registration_intro_day').val(),
+                    year: $('#registration_intro_year').val(),
+                    show_year: string
 
-                        }, function(output)
-                        {
-                           if(output=="Change successful!")
-                           {
-                               $('#row_0').removeClass('default').css('background-color', 'white');
-                               $('#row_1').removeClass('default').css('background-color', 'white');
-                               $('#row_2').removeClass('default').css('background-color', 'white');
-                               $('#row_3').removeClass('default').css('background-color', 'white');
-                           }
-                           else
-                               errors=errors+' | '+output;
-                        });
-                        
-                        
+                }, function(output)
+                {
+                   if(output=="Change successful!")
+                   {
+                       $('#row_0').removeClass('default').css('background-color', 'white');
+                       $('#row_1').removeClass('default').css('background-color', 'white');
+                       $('#row_2').removeClass('default').css('background-color', 'white');
+                       $('#row_3').removeClass('default').css('background-color', 'white');
+                   }
+                   else
+                       errors=errors+' | '+output;
+                });
+
+
                 //changes bio
-                        $.post('main_access.php',
-                        {
-                            access:35,
-                            num:4,
-                            new_bio: $('#bio_input').val()
-                        },
-                        function(output)
-                        {
-                           if(output=='Change successful!')
-                              $('#row_4').removeClass('default').css('background-color', 'white');
-                           else
-                               errors=errors+' | '+output;
-                        });
+                $.post('main_access.php',
+                {
+                    access:35,
+                    num:4,
+                    new_bio: $('#bio_input').val()
+                },
+                function(output)
+                {
+                   if(output=='Change successful!')
+                      $('#row_4').removeClass('default').css('background-color', 'white');
+                   else
+                       errors=errors+' | '+output;
+                });
                 //changes gender
-                        $.post('main_access.php',
-                        {
-                            access:35,
-                            num:2,
-                            sex: $('#sex_options').val()
-                        }, function(output)
-                        {
-                           if(output=="Change successful!")
-                                 $('#row_5').removeClass('default').css('background-color', 'white');
-                           else
-                               errors=errors+' | '+output;
-                        });
+                $.post('main_access.php',
+                {
+                    access:35,
+                    num:2,
+                    sex: $('#sex_options').val()
+                }, function(output)
+                {
+                   if(output=="Change successful!")
+                         $('#row_5').removeClass('default').css('background-color', 'white');
+                   else
+                       errors=errors+' | '+output;
+                });
                 //changes relationship
-                        $.post('main_access.php',
-                        {
-                            access:35,
-                           num:5,
-                           relationship: $('#relationship_options').val()
-                        }, function (output)
-                        {
-                           if(output=='Change successful!')
-                              $('#row_6').removeClass('default').css('background-color', 'white');
-                           else
-                               errors=errors+' | '+output;
-                        });     
-                 //changes mood
-                        $.post('main_access.php',
-                        {
-                            access:35,
-                            num:6,
-                            mood: $('#mood_options').val()
-                        }, function (output)
-                        {
-                           if(output=='Change successful!')
-                              $('#row_7').removeClass('default').css('background-color', 'white');
-                           else
-                               errors=errors+' | '+output;
-                        });
-                  //changes high school
-                        $.post('main_access.php',
-                        {
-                            access:35,
-                            num:7,
-                            high_school: $('#high_school').val()
-                        }, function(output)
-                        {
-                           if(output=='Change successful!')
-                              $('#row_8').removeClass('default').css('background-color', 'white');
-                           else
-                               errors=errors+' | '+output;
-                        });
-                  //changes college
-                        $.post('main_access.php',
-                        {
-                            access:35,
-                            num:12,
-                            college: $('#college').val()
-                        }, function(output)
-                        {
-                            if(output=='Change successful!')
-                              $('#row_9').removeClass('default').css('background-color', 'white');
-                           else
-                               errors=errors+' | '+output;
-                        });
-                   //changes country
-                        $.post('main_access.php',
-                        {
-                            access:35,
-                            num:14,
-                            country: $('#registration_country_options').val()
-                        }, function(output)
-                        {
-                            if(output=='Change successful!')
-                              $('#row_10').removeClass('default').css('background-color', 'white');
-                           else
-                               errors=errors+' | '+output;
-                        });
+                $.post('main_access.php',
+                {
+                    access:35,
+                   num:5,
+                   relationship: $('#relationship_options').val()
+                }, function (output)
+                {
+                   if(output=='Change successful!')
+                      $('#row_6').removeClass('default').css('background-color', 'white');
+                   else
+                       errors=errors+' | '+output;
+                });     
+                //changes mood
+                $.post('main_access.php',
+                {
+                    access:35,
+                    num:6,
+                    mood: $('#mood_options').val()
+                }, function (output)
+                {
+                   if(output=='Change successful!')
+                      $('#row_7').removeClass('default').css('background-color', 'white');
+                   else
+                       errors=errors+' | '+output;
+                });
+                //changes high school
+                $.post('main_access.php',
+                {
+                    access:35,
+                    num:7,
+                    high_school: $('#high_school').val()
+                }, function(output)
+                {
+                   if(output=='Change successful!')
+                      $('#row_8').removeClass('default').css('background-color', 'white');
+                   else
+                       errors=errors+' | '+output;
+                });
+                //changes college
+                $.post('main_access.php',
+                {
+                    access:35,
+                    num:12,
+                    college: $('#college').val()
+                }, function(output)
+                {
+                    if(output=='Change successful!')
+                      $('#row_9').removeClass('default').css('background-color', 'white');
+                   else
+                       errors=errors+' | '+output;
+                });
+                //changes country
+                $.post('main_access.php',
+                {
+                    access:35,
+                    num:14,
+                    country: $('#registration_country_options').val()
+                }, function(output)
+                {
+                    if(output=='Change successful!')
+                      $('#row_10').removeClass('default').css('background-color', 'white');
+                   else
+                       errors=errors+' | '+output;
+                });
                         
                 if(errors=='')
                 {

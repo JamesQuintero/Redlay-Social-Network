@@ -1,10 +1,8 @@
 <?php
 @include('init.php');
-if(!isset($_SESSION['id']))
-{
-    header("Location: http://m.redlay.com/index.php");
-    exit();
-}
+include("../universal_functions.php");
+$allowed="users";
+include("security_checks.php");
 
 ?>
 <html>

@@ -1,20 +1,18 @@
 <?php
 @include('init.php');
-if(!isset($_SESSION['id']))
-{
-    header("Location: http://m.redlay.com/index.php");
-    exit();
-}
-$query=strip_tags(stripslashes(mysql_real_escape_string($_GET['query'])));
+include("../universal_functions.php");
+$allowed="users";
+include("security_checks.php");
+
+
+$query=clean_string($_GET['query'])));
 ?>
+
+<!DOCTYPE html>
 <html>
     <head>
         <title>Home</title>
-        <link rel="stylesheet" type="text/css" href="mobile_main.css" />
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
-        <link href='http://fonts.googleapis.com/css?family=Chivo' rel='stylesheet' type='text/css' />
-        <script type="text/javascript" src="all_jQuery.js"></script>
+        <?php include('required_header.php'); ?>
         <script type="text/javascript">
             $(document).ready(function()
             {

@@ -1,13 +1,13 @@
 <?php
 @include('init.php');
-if(!isset($_SESSION['id']))
-{
-    header("Location: http://m.redlay.com/index.php");
-    exit();
-}
-include('alert_functions.php');
+include('../alert_functions.php');
+include("../universal_functions.php");
+$allowed="users";
+include("security_checks.php");
+
+
 //$ID=strip_tags(stripslashes(mysql_real_escape_string($_POST['user_id'])));
-$search=trim(stripslashes(strip_tags(mysql_real_escape_string($_POST['query']))));
+$search=clean_string($_POST['query']))));
 
 
 //return all results
@@ -51,4 +51,3 @@ $JSON['profile_images']=$images;
 $JSON['result_names']=$names;
 echo json_encode($JSON);
 exit();
-?>

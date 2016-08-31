@@ -1,13 +1,11 @@
 <?php
 @include('init.php');
-if(!isset($_SESSION['id'])&&!isset($_SESSION['page_id']))
-{
-    header("Location:http://m.redlay.com");
-    exit();
-}
 include('../universal_functions.php');
+$allowed="users";
 include('security_checks.php');
+
 ?>
+<!DOCTYPE html>
 <html>
     <head>
         <title></title>
@@ -24,20 +22,6 @@ include('security_checks.php');
                 $('.box').css('border', '5px solid <?php echo $color; ?>');
                 $('.box').css({'background-color': '<?php echo $box_background_color; ?>'});
             }
-
-            // Prevent "event.layerX and event.layerY are broken and deprecated in WebKit. They will be removed from the engine in the near future."
-            // in latest Chrome builds.
-            (function () {
-                // remove layerX and layerY
-                var all = $.event.props,
-                len = all.length,
-                res = [];
-                while (len--) {
-                    var el = all[len];
-                    if (el != 'layerX' && el != 'layerY') res.push(el);
-                }
-                $.event.props = res;
-            } ());
 
             $(document).ready(function()
             {
@@ -57,7 +41,7 @@ include('security_checks.php');
         </div>
         <div id="main">
             <div>
-                
+                Nothing here, yet
             </div>
             <?php include('footer.php'); ?>
         </div>

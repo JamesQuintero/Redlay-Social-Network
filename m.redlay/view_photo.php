@@ -1,16 +1,12 @@
 <?php
 @include('init.php');
-if(!isset($_SESSION['id'])&&!isset($_SESSION['page_id']))
-{
-    header("Location: http://m.redlay.com");
-    exit();
-}
-
 include('../universal_functions.php');
+$allowed="users";
+include("security_checks.php");
+
 $ID=(int)($_GET['user_id']);
 $picture_id=clean_string($_GET['picture_id']);
 $type=clean_string($_GET['type']);
-
 
 
 $picture_is_viewable=picture_is_viewable($ID, $picture_id, $type);
@@ -65,19 +61,7 @@ else
 
                 $('.comment_like, .comment_dislike').css('color', '<?php echo $color; ?>');
             }
-            // Prevent "event.layerX and event.layerY are broken and deprecated in WebKit. They will be removed from the engine in the near future."
-            // in latest Chrome builds.
-            (function () {
-                // remove layerX and layerY
-                var all = $.event.props,
-                    len = all.length,
-                    res = [];
-                while (len--) {
-                    var el = all[len];
-                    if (el != 'layerX' && el != 'layerY') res.push(el);
-                }
-                $.event.props = res;
-            } ());
+            
             $(window).ready(function()
             {
                 if((<?php echo $ID; ?>!=<?php if(isset($_SESSION['id'])) echo $_SESSION['id']; else echo "0"; ?>||'<?php echo $picture_id; ?>'=='0')||(<?php echo "'".$type."'"; ?>!='user'&&<?php if(!isset($_SESSION['page_id']))echo '0'; else echo '1'; ?>==0&&<?php echo $ID; ?>==<?php if(!isset($_SESSION['page_id'])) echo $_SESSION['id']; else echo '0'; ?>))

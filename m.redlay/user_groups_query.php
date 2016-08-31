@@ -1,11 +1,8 @@
 <?php
 @include('init.php');
-if(!isset($_SESSION['id'])&&!isset($_SESSION['page_id']))
-{
-    header("Location: http://m.redlay.com/index.php");
-    exit();
-}
-include('universal_functions.php');
+include('../universal_functions.php');
+$allowed="users";
+include("security_checks.php");
 
 $num=(int)($_POST['num']);
 if($num==1)
@@ -94,4 +91,3 @@ else
         echo json_encode($JSON);
     }
 }
-?>

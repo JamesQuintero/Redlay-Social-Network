@@ -1,14 +1,10 @@
 <?php
 @include('init.php');
-if(!isset($_SESSION['id']))
-{
-    header("Location: http://m.redlay.com");
-    exit();
-}
+include('../universal_functions.php');
+$allowed="users";
+include('security_checks.php');
 
 $ID=(int)($_GET['user_id']);
-include('../universal_functions.php');
-include('security_checks.php');
 
 //gets the user's privacy preferences
 $privacy=get_user_privacy_settings($ID);
@@ -394,8 +390,6 @@ $user_is_friends=user_is_friends($ID, $_SESSION['id']);
 
                                     var body=get_post_format(image, name, string+functions, comment_input+comment_body, timestamp, options, 'post_options_'+post_ids[x], 'status_update_'+post_ids[x]);
                                     $('#page_'+page).html($('#page_'+page).html()+body);
-//                                    var content=$('#page_'+page).html();
-//                                    $('#page_'+page).html(content+image+options+name+string+functions+comment_input+comment_body+timestamp+post_break);
 
 
 
@@ -793,42 +787,19 @@ $user_is_friends=user_is_friends($ID, $_SESSION['id']);
         <?php include('required_html.php'); ?>
         <div id="main">
                 <?php
-//                        $query=mysql_query("SELECT user_relationship, user_birthday, user_sex, high_school, college FROM user_data WHERE user_id=$ID LIMIT 1");
-//                        $query2=mysql_query("SELECT birthday_year FROM user_display WHERE user_id=$ID LIMIT 1");
-//                        if($query&&mysql_num_rows($query)==1&&$query2&&mysql_num_rows($query2)==1)
-//                        {
-//                            $array=mysql_fetch_row($query);
-//                            $array2=mysql_fetch_row($query2);
-//                            $user_relationship=$array[0];
-//
-//
-//                            $birthday_year=$array2[0];
-//                            //adds comma for user birthday
-//                            $birthday=explode('|^|*|', $array[1]);
-//
-//                            if($birthday_year=='no')
-//                                $birthday[2]='';
-//                            else
-//                                $birthday[1]=$birthday[1].',';
-//                            
-//                            $user_birthday=implode(' ', $birthday);
-//                            $user_gender=$array[2];
-//                            $high_school=$array[3];
-//                            $college=$array[4];
-//                        }
-                        $query=mysql_query("SELECT user_bio FROM user_data WHERE user_id=$ID LIMIT 1");
-                        if($query&&mysql_num_rows($query)==1)
-                        {
-                            $array=mysql_fetch_row($query);
-                            $bio=$array[0];
-                        }
-                        $query=mysql_query("SELECT image_types FROM pictures WHERE user_id=$ID LIMIT 1");
-                        if($query&&mysql_num_rows($query)==1)
-                        {
-                            $array=mysql_fetch_row($query);
-                            $image_types=explode('|^|*|', $array[0]);
-                        }
-                    ?>
+                    $query=mysql_query("SELECT user_bio FROM user_data WHERE user_id=$ID LIMIT 1");
+                    if($query&&mysql_num_rows($query)==1)
+                    {
+                        $array=mysql_fetch_row($query);
+                        $bio=$array[0];
+                    }
+                    $query=mysql_query("SELECT image_types FROM pictures WHERE user_id=$ID LIMIT 1");
+                    if($query&&mysql_num_rows($query)==1)
+                    {
+                        $array=mysql_fetch_row($query);
+                        $image_types=explode('|^|*|', $array[0]);
+                    }
+                ?>
             <div id="information_content" class="box">
                 <table style="margin:15px;margin-left:25px;">
                     <tbody>

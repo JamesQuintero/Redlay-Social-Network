@@ -1,19 +1,14 @@
 <?php
 @include('init.php');
-if(!isset($_SESSION['id']))
-{
-    header("Location: http://m.redlay.com");
-    exit();
-}
+include("../universal_functions.php");
+$allowed="users";
+include("security_checks.php");
+
 ?>
 <html>
     <head>
         <title>Home</title>
-        <link rel="stylesheet" type="text/css" href="mobile_main.css" />
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
-        <link href='http://fonts.googleapis.com/css?family=Chivo' rel='stylesheet' type='text/css' />
-        <script type="text/javascript" src="all_jQuery.js"></script>
+        <?php include("required_header.php"); ?>
         <script type="text/javascript">
             $(document).ready(function()
             {
@@ -27,7 +22,7 @@ if(!isset($_SESSION['id']))
         <?php include('top.php'); ?>
         <div id="main">
             <div id="content" class="box">
-                
+                <p>Nothing here, yet</p>
             </div>
         </div>
     </body>
