@@ -1,0 +1,280 @@
+#status_updates {
+    position: relative;
+    padding-top: 15px;
+    margin-left: 10px;
+    line-height: 1;
+    margin-right: 10px;
+}
+.status_update_text {
+    position: relative;
+    top: -60px;
+    left: 80px;
+    font-size: 14px;
+    width: 400px;
+    margin: 0;
+    padding: 0
+}
+.timestamp_status_update {
+    position: relative;
+    color: rgb(20, 20, 20);
+    font-size: 14px;
+    width: 250px;
+    left: 0;
+    line-height: 1;
+    margin: 0;
+    padding: 0
+}
+#update_box {
+    position: relative;
+    margin: 0;
+    padding: 0
+}
+.profile_picture_status {
+    position: relative;
+    outline-color: red;
+    top: 10px;
+    left: 0;
+    width: 70px;
+    height: 70px;
+    margin: 0;
+    padding: 0
+}
+.break {
+    position: relative;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+.user_name {
+    position: relative;
+    font-size: 18px;
+    width: 200px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+.user_name_body {
+    position: relative;
+    left: 80px;
+    top: -65px;
+    width: 300px;
+}
+.added_table {
+    height: 65px;
+    position: relative;
+    margin-left: 80px;
+    margin-top: -65px;
+}
+.user_name_link {
+    width: 200px;
+    line-height: 1;
+    text-decoration: none;
+    margin: 0;
+    padding: 0
+}
+.status_update_like {
+    position: relative;
+    color: red;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.status_update_like_me {
+    position: relative;
+    color: red;
+    top: -35px;
+    left: 95px;
+    width: 200px;
+    line-height: 1;
+    cursor: default;
+    margin: 0;
+    padding: 0
+}
+.status_update_dislike {
+    position: relative;
+    color: red;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.me {
+    cursor: default
+}
+.post_delete {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 15px;
+    cursor: pointer;
+    line-height: 1;
+    margin: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.comment_delete {
+    position: relative;
+    margin-left: 345px;
+    margin-top: -26px;
+    top: -40px;
+    width: 15px;
+    cursor: pointer;
+    line-height: 1;
+    padding: 5px;
+    border-radius: 5px;
+}
+.comment_text {
+    position: relative;
+    color: red;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.status_update {
+    position: relative;
+    line-height: 1;
+    margin: 0;
+    padding: 0
+}
+.comment_textarea {
+    margin-top: 10px;
+    resize: none;
+    position: relative;
+    width: 400px;
+    height: 37px;
+    line-height: 1;
+}
+.comment_submit {
+    position: relative;
+    border: 1px solid black;
+    margin-left: 350px;
+}
+.comment_text_body {
+    position: relative;
+    left: 55px;
+    width: 320px;
+    top: -50px;
+    line-height: 1;
+    font-size: 14px;
+    margin: 0;
+    padding: 0
+}
+.comment_profile_picture {
+    position: relative;
+    max-width: 50px;
+    max-height: 50px;
+    line-height: 1;
+    cursor: pointer;
+    margin: 0;
+    padding: 0
+}
+.comment_break {
+    top: -10px;
+    position: relative;
+    line-height: 1;
+    margin: 0;
+    padding: 0
+}
+.comment_timestamp {
+    position: relative;
+    margin-top: 0px;
+    color: #646464;
+    font-size: 14px;
+    line-height: 1;
+    width: 250px;
+    padding: 0
+}
+.comment_name {
+    position: relative;
+    font-size: 16px;
+    width: 200px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0
+}
+.comment_body {
+    padding: 10px;
+    border: 1px solid gray;
+    margin-right: 50px;
+    margin-left: 50px;
+    position: relative;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.comment_like {
+    position: relative;
+    font-size: 14px;
+    font-family: Chivo, sans-serif;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.comment_like_me {
+    cursor: default
+}
+.comment_dislike {
+    position: relative;
+    font-size: 14px;
+    font-family: Chivo, sans-serif;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.comment_dislike_me {
+    cursor: default
+}
+.favorite_post_text {
+    position: relative;
+    margin: -5px;
+    top: -35px;
+    left: 280px;
+    color: red;
+    cursor: pointer;
+    width: 70px;
+}
+#status_update_form {
+    position: relative;
+}
+.comment_user_name_body {
+    position: relative;
+    left: 55px;
+    top: -52px;
+    width: 250px;
+}
+.post_functions_table {
+    margin-top: -40px;
+    margin-left: 80px;
+}
+.post_functions_unit {
+    width: 100px;
+}
+.post_functions_post_comment_unit {
+    width: 150px;
+}
+.post_functions_comment_unit {
+    width: 100px;
+}
+.post_functions_comment_table {
+    margin-top: -45px;
+    position: relative;
+    margin-left: 55px;
+    height: 20px;
+}
+.comment {
+    position: relative;
+}
+.comment_show {
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+}
+.comment_input_body {
+    position: relative;
+    text-align: center;
+    margin-top: 0px;
+}

@@ -1,0 +1,63 @@
+.profile_picture_alerts {
+    position: relative;
+    outline-color: red;
+    margin-top: 10px;
+    left: 0;
+    width: 70px;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid gray;
+}
+#content {
+    position: relative;
+    margin-top: 100px;
+    width: 910px;
+}
+.document_alert {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.alert_name_link {
+    text-decoration: none;
+}
+.alert_name {
+    margin-top: -70px;
+    margin-left: 85px;
+}
+.alert_name_text {
+    text-decoration: underline;
+}
+.document_alert {
+    position: relative;
+    cursor: pointer;
+}
+.document_alert_text {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 85px;
+}
+.document_alert_document {
+    position: relative;
+    margin-top: -50px;
+    margin-left: 275px;
+}
+.document_alert_timestamp {
+    position: relative;
+    color: rgba(0, 0, 0, .8);
+}
+.document_alert_break {
+    position: relative;
+    margin-left: 0px;
+    width: 930px;
+}
+#document_empty_message {
+    position: relative;
+    color: rgb(220, 21, 0);
+    width: 910px;
+    margin-top: 20px;
+    font-family: 'Chivo', sans-serif;
+    font-weight: normal;
+    text-align: center;
+}

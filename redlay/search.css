@@ -1,0 +1,107 @@
+.result {
+    position: relative;
+    left: 5px;
+    height: 85px;
+}
+#search_results {
+    position: relative;
+}
+.search_result_name {
+    position: relative;
+    margin-top: -75px;
+    left: 90px;
+    width: 150px;
+    padding: 0px;
+}
+#search_options {
+    position: relative;
+}
+.page_num_likes {
+    position: relative;
+    color: rgba(0, 0, 0, .6);
+    margin-top: -10px;
+    margin-left: 90px;
+}
+#search_options_input {
+    position: relative;
+}
+.search_profile_picture {
+    width: 75px;
+    height: 75px;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+#case_sensitive {
+    position: relative;
+    top: -20px;
+    left: 300px;
+    padding: 0px;
+    margin: 0px;
+}
+.add_button {
+    position: relative;
+    left: 750px;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: -80px;
+    margin: 0px;
+}
+.pending_button {
+    position: relative;
+    left: 725px;
+    width: 175px;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: -80px;
+    cursor: default;
+    margin: 0px;
+}
+#search_title {
+    text-align: center;
+}
+.search_title {
+    font-size: 20px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#search_options_menu {
+    position: relative;
+    margin-top: 10px;
+}
+#search_table {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 890px;
+}
+.search_profile_picture_unit {
+    width: 105px;
+}
+.search_description_unit {
+    width: 600px;
+    vertical-align: top;
+}
+.search_description_body {
+    position: relative;
+    top: 0px;
+}
+.search_description_name {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.search_description {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.search_num {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.search_link {
+    text-decoration: none;
+}

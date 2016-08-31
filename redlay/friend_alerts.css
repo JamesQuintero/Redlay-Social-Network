@@ -1,0 +1,128 @@
+#content {
+    color: white;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 100px;
+    left: 10px;
+    width: 925px;
+}
+#friend_request_alert_errors {
+    position: absolute;
+    top: -50px;
+    left: 300px;
+}
+.name {
+    position: relative;
+    color: rgb(220, 21, 0);
+    font-weight: bold;
+    text-decoration: underline;
+    width: 300px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#buttons_body {
+    position: relative;
+    margin-top: -40px;
+}
+.friend_message {
+    position: relative;
+}
+#unread_button {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 190px;
+    font-size: 12px;
+    border: 1px solid black;
+    top: 0px;
+    margin-bottom: 20px;
+}
+.friend_user_name_body {
+    position: relative;
+}
+.name_link {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+.accept_button {
+    position: relative;
+}
+.decline_button {
+    position: relative;
+}
+.block_button {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    position: relative;
+    top: 0px;
+    margin: 0px;
+    left: 525px;
+    border: 2px solid red;
+    font-size: 16px;
+    cursor: pointer;
+}
+.friend_profile_pic {
+    position: relative;
+    padding: 0px;
+    max-width: 75px;
+    max-height: 75px;
+}
+.friend_alert {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.request {
+    position: relative;
+    top: 20px;
+    left: 0px;
+    padding: 35px;
+    width: 200px;
+}
+.unfriend_button {
+    background-color: lightgray;
+    color: black;
+    position: relative;
+    margin: 0px;
+    top: -70px;
+    left: 700px;
+    border: 2px solid rgb(75, 75, 75);
+    font-size: 16px;
+    cursor: pointer;
+}
+#friend_request_alert_none {
+    position: relative;
+    color: rgb(220, 21, 0);
+    width: 910px;
+    margin-top: 20px;
+    font-family: 'Chivo', sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+#friend_request_content {
+    position: relative;
+    width: 910px;
+    margin-top: 100px;
+}
+#friend_request_alerts_table {
+    width: 870px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.profile_picture_unit {
+    width: 75px;
+}
+.user_name_unit {
+    width: 800px;
+    position: relative;
+}
+.buttons_unit {
+    padding: 0px;
+}
+.name_message_body {
+    position: absolute;
+    margin-top: -40px
+}

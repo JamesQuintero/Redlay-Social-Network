@@ -1,0 +1,387 @@
+#page_name_box {
+    border: 5px solid #2828ff;
+    margin-top: 15px;
+    margin-left: 0px;
+    width: 200px;
+    background-color: #FFF;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Chivo', sans-serif;
+    position: relative;
+}
+#user_name {
+    position: relative;
+}
+#page_options {
+    position: relative;
+    margin-top: 15px;
+    left: 0;
+    border: 5px solid green;
+    width: 200px;
+    height: 100px;
+    background-color: #FFF;
+}
+#photo_button {
+    position: relative;
+}
+#page_left {
+    position: absolute;
+    left: 0px;
+    top: 90px;
+}
+#page_right {
+    position: absolute;
+    left: 225px;
+    top: 90px;
+}
+#workspace {
+    position: relative;
+    top: 15px;
+    left: 0px;
+}
+#profile_menu {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 710px;
+}
+#profile_menu_2 {
+    position: relative;
+    margin-left: 65px;
+}
+#profile_menu_3 {
+    position: relative;
+    margin-left: 145px;
+}
+#profile_menu_4 {
+    position: relative;
+    margin-left: 230px;
+}
+#profile_menu_5 {
+    position: relative;
+    margin-left: 300px;
+}
+#profile_menu_6 {
+    position: relative;
+    margin-left: 420px;
+}
+#photo_page {
+    position: relative;
+    margin-top: 15px;
+    height: 200px;
+    width: 510px;
+}
+#video_page {
+    position: relative;
+    margin-top: 15px;
+    height: 200px;
+    width: 510px;
+}
+#page_information_box {
+    position: relative;
+    left: 0px;
+    margin-top: 15px;
+    width: 200px;
+}
+#profile_menu_1 {
+    margin-top: -10px;
+    position: relative;
+    width: 40px;
+    left: 10px;
+}
+#page_posts {
+    position: relative;
+    margin-top: 15px;
+    margin-left: 0px;
+    width: 510px;
+}
+.comment_body {
+    position: relative;
+    margin-top: 30px;
+}
+#public_insight {
+    position: absolute;
+    top: 50px;
+    left: 535px;
+    width: 175px;
+    height: 425px;
+}
+#main_video {
+    position: relative;
+    margin-top: 8px;
+    margin-left: 100px;
+}
+#product_page {
+    position: relative;
+    margin-top: 15px;
+    width: 710px;
+}
+#add_product {
+    position: relative;
+    width: 175px;
+    height: 250px;
+    border: 1px solid black;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+#add_product_image {
+    position: relative;
+    border: 1px solid green;
+    height: 120px;
+    width: 150px;
+    margin-left: 11px;
+    margin-top: 11px;
+}
+#add_product_image_input {
+    position: absolute;
+    top: 40px;
+    width: 160px;
+}
+#dollar_sign {
+    position: relative;
+    padding: -5px;
+    margin: 0px;
+}
+.product_image_body {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    overflow: hidden;
+    border: 1px solid blue;
+}
+.product_image {
+    position: relative;
+    overflow: hidden;
+}
+.product {
+    position: relative;
+    top: 0px;
+    border: 1px solid black;
+}
+#new_product_body {
+    width: 170px;
+    left: 24px;
+}
+#new_product_buy_button {} #products_table {
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.product_buy_button {
+    position: relative;
+    background-color: rgb(0, 170, 0);
+    color: white;
+    left: 10px;
+    font-size: 16px;
+    top: 0px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#add_product_name {
+    position: relative;
+    margin-left: 10px;
+}
+#add_product_link {
+    position: absolute;
+    margin-left: 10px;
+    top: 20px;
+}
+#add_product_price {
+    position: absolute;
+    margin-left: 10px;
+    top: 42px;
+}
+#add_product_price_input {
+    position: relative;
+    margin-left: 5px;
+    width: 135px;
+}
+#add_product_buy_link {
+    position: absolute;
+    margin-left: 10px;
+    top: 64px;
+}
+#add_product_category {
+    position: absolute;
+    margin-left: 10px;
+    top: 86px;
+}
+.add_product_input {
+    width: 150px;
+}
+#add_product_submit {
+    position: absolute;
+    margin-left: 110px;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    top: 86px;
+}
+.product_name {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    top: -5px;
+    margin-left: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.product_name_link {
+    text-decoration: none;
+}
+.product_price {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+}
+#add_category {
+    position: relative;
+    left: 300px;
+}
+#product_categories {
+    position: relative;
+}
+.product_categories {
+    position: relative;
+    margin: 3px;
+    width: 200px;
+    cursor: pointer;
+}
+#products {
+    position: relative;
+    top: 0px;
+}
+#like_button {
+    position: relative;
+}
+.information_title {
+    position: relative;
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0px;
+}
+#website_page {
+    position: relative;
+    width: 800px;
+    height: 70px;
+    margin-top: 15px;
+}
+#fan_page {
+    position: relative;
+    width: 800px;
+    margin-top: 15px;
+}
+.fan_picture_body {
+    position: relative;
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+}
+#fan_page_main_body {
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    margin-left: 10px;
+    top: -5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 5px rgb(30, 30, 30);
+    background-color: #FFF;
+    padding: 8px
+}
+#fan_page_main {
+    position: relative;
+    width: 350px;
+    border: 1px solid gray;
+}
+#fan_page_main_description {
+    position: relative;
+    margin-left: 0px;
+}
+#fan_picture {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#page_information {
+    position: relative;
+    margin-top: 15px;
+    width: 700px;
+}
+.page_information_text {
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#video {
+    position: relative;
+    margin-left: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#fan_vodeo_body {
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    top: -5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 5px rgb(30, 30, 30);
+    background-color: #FFF;
+    padding: 8px
+}
+.fan_display_text {
+    position: relative;
+    text-decoration: underline;
+    font-size: 25px;
+    cursor: pointer;
+}
+#page_description_body {
+    padding: 0px;
+    margin-top: 0px;
+}
+.selected {
+    font-weight: bold;
+}
+#information_likes {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#information_created {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+#website {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+#page_post_button {
+    position: absolute;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 16px;
+    margin-top: 90px;
+    right: 50px;
+}
+#toggle_passwords {
+    position: absolute;
+    top: 300px;
+    right: 0px;
+}
+#product_form_plus_sign {
+    position: absolute;
+    top: 35px;
+    left: 50px;
+    height: 50px;
+    opacity: 0
+}
+#new_product_fields {
+    position: relative;
+}

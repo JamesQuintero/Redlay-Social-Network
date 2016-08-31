@@ -1,0 +1,232 @@
+#content {
+    position: relative;
+    margin-top: 100px;
+    width: 910px;
+}
+#existing_documents {
+    padding: 10px;
+    margin-left: 30px;
+    width: 820px;
+    position: relative;
+    height: 230px;
+    box-shadow: 3px 3px 5px #646464;
+    overflow: auto;
+}
+.existing_documents_unit {
+    cursor: pointer;
+    width: 200px;
+}
+.document_unit_table {
+    width: 200px;
+}
+.document_unit_row {
+    text-align: center;
+}
+.existing_document_name {
+    position: relative;
+    font-size: 14px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.existing_document_timestamp {
+    position: relative;
+    font-size: 14px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.existing_document_icon {
+    position: relative;
+}
+.existing_document {
+    width: 210px;
+    cursor: pointer;
+}
+#new_document_input {
+    resize: none;
+    position: relative;
+    border: 1px solid black;
+    overflow: auto;
+    margin-left: 0px;
+    width: 820px;
+    height: 500px;
+}
+#document_title {
+    position: relative;
+    margin-left: 0px;
+}
+.document_title {
+    font-weight: bold;
+    text-decoration: underline;
+}
+#document_error {
+    position: fixed;
+    top: 47px;
+    left: 800px;
+}
+#existing_documents_title {
+    position: relative;
+    margin-left: 30px;
+}
+#create_new_document_title {
+    position: relative;
+    margin-left: 30px;
+}
+#new_document {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 875px;
+    height: 600px;
+    left: 40px;
+    position: relative;
+    margin-bottom: 25px;
+}
+#new_document_button {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    font-size: 14px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#document_title_title {
+    position: relative;
+    text-decoration: underline;
+}
+#document_menu {
+    margin-left: 40px;
+}
+#send_document_menu {
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px solid black;
+    width: 300px;
+}
+#send_document_message_title {
+    position: absolute;
+    margin-top: 0px;
+}
+#send_document_message_input {
+    position: relative;
+    margin-top: 20px;
+}
+#send_profile_picture {
+    position: relative;
+    width: 50px;
+    overflow: hidden;
+    height: 50px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#send_profile_picture_picture {
+    position: relative;
+    max-width: 50px;
+    max-height: 50px;
+}
+#readonly_input {
+    resize: none;
+    position: relative;
+    border: 1px solid black;
+    box-shadow: 3px 3px 5px #646464;
+    overflow: auto;
+    margin-left: 60px;
+    width: 750px;
+    height: 500px;
+    cursor: default;
+    opacity: 0.8;
+}
+#new_document_submit {
+    position: relative;
+    font-size: 16px;
+}
+#send_document_button {
+    position: relative;
+    color: white;
+    font-size: 14px;
+}
+#send_document_submit {
+    position: relative;
+    border: 1px solid black;
+}
+#documents_content {
+    position: relative;
+    margin-top: 100px;
+    width: 910px;
+}
+#existing_documents_box {
+    width: 250px;
+    height: 600px;
+    overflow: scroll;
+}
+#documents_page_menu_box {
+    height: 50px;
+    width: 600px;
+}
+#documents_workspace_box {} .documents_page_unit {
+    vertical-align: top;
+}
+#documents_page_table {
+    width: 900px;
+    border-spacing: 15px
+}
+#documents_menu_unit_1 {
+    width: 50px;
+}
+#documents_menu_unit_2 {
+    width: 50px;
+}
+#documents_menu_unit_3 {
+    width: 50px;
+}
+#documents_menu_unit_4 {
+    width: 50px;
+}
+#documents_menu_unit_5 {
+    text-align: right;
+}
+.image_preview {
+    max-width: 580px;
+}
+#existing_documents_table {
+    width: 200px;
+}
+#documents_workspace_content {
+    position: relative;
+    width: 500px;
+    margin: 10px;
+}
+.documents_page_box {
+    border-radius: 3px;
+    box-shadow: 0px 0px 6px 0px gray
+}
+#document_input {
+    resize: none;
+    width: 500px;
+    height: 450px;
+}
+#document_button_unit {
+    text-align: right;
+}
+#upload_document_description {
+    width: 450px;
+    height: 125px;
+}
+.document_thumbnail {
+    width: 20px;
+}
+.existing_documents_name {} .file_name {
+    width: 225px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.existing_documents_picture {
+    width: 5px
+}
+.information_text {
+    position: relative;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

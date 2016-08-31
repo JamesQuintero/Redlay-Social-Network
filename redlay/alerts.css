@@ -1,0 +1,16 @@
+#alert_body
+{
+    position: absolute;
+    top: 100px;
+    width: 925px;
+}
+.alert_text
+{
+    cursor: pointer;
+}
+.alert_profile_picture
+{
+    max-width: 75px;
+    max-height: 75px;
+    position: relative;
+}

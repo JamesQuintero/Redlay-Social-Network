@@ -1,0 +1,174 @@
+#picture {
+    border-radius: 5px;
+    position: relative;
+    max-width: 800px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid gray;
+    background-color: #FFF;
+    padding: 8px
+}
+#picture_body {
+    position: relative;
+    padding-top: 10px
+}
+.picture_description {
+    position: relative;
+    width: 500px;
+}
+#picture_description_name {
+    position: relative;
+}
+#picture_description_description {
+    margin-top: 0px;
+    position: relative;
+    width: 500px
+}
+#picture_timestamp {
+    position: relative;
+}
+#picture_main {
+    margin: 0 auto;
+    width: 910px;
+    position: relative;
+    margin-top: 100px
+}
+#delete_photo {
+    position: relative;
+    width: 150px;
+    cursor: pointer;
+    font-size: 14px
+}
+#slide_show {
+    position: relative;
+    width: 150px;
+    cursor: pointer;
+    font-size: 14px
+}
+.picture_comment {
+    margin-bottom: 20px;
+    position: relative;
+    margin-top: 20px;
+    width: 400px;
+    height: 40px;
+    line-height: 1;
+    resize: none
+}
+.picture_comment_submit {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 390px;
+    border: 1px solid black;
+}
+.picture_comment_body {
+    padding-right: 15px;
+    position: relative;
+    padding-left: 15px;
+}
+#comment_body {
+    margin-bottom: 15px;
+    position: relative;
+    padding: 10px;
+    border: 1px solid gray;
+}
+#comment {
+    margin-left: 250px;
+    width: 400px;
+    position: relative;
+    border-radius: 5px;
+}
+.picture_comment_me {
+    background-color: #FFFDD6
+}
+#left_arrow {
+    position: absolute;
+    top: 300px;
+    left: 5px;
+    font-size: 35px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    cursor: pointer;
+    background-color: #FFF;
+    padding: 5px
+}
+#right_arrow {
+    position: absolute;
+    right: 5px;
+    top: 300px;
+    font-size: 35px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    cursor: pointer;
+    background-color: #FFF;
+    padding: 5px
+}
+.picture_like_dislike {
+    color: red;
+    cursor: pointer
+}
+#picture_like {
+    position: relative;
+    width: 120px;
+}
+#picture_dislike {
+    position: relative;
+    width: 120px;
+}
+#profile_picture_photo {
+    margin-top: 20px;
+    margin-left: 50px;
+    max-width: 75px;
+    max-height: 75px;
+    position: relative;
+}
+#picture_description_name_link {
+    text-decoration: none
+}
+.picture_comment_profile_picture,
+.picture_comment_timestamp,
+.picture_comment_break {
+    left: 0
+}
+.picture_comment_text_body,
+.picture_comment_name {
+    left: 15px;
+}
+#left_arrow_text,
+#right_arrow_text {
+    position: relative;
+    margin-top: -8px;
+    margin-bottom: 0;
+    padding: 0
+}
+#picture_bottom {
+    position: relative;
+    margin-top: 0px;
+}
+#picture_information {
+    width: 500px;
+    margin-left: 140px;
+    position: absolute;
+    margin-top: -75px;
+}
+.photo_comment_delete {
+    position: relative;
+    left: 400px;
+    margin-top: -26px;
+    top: -30px;
+    width: 15px;
+    cursor: pointer;
+    line-height: 1;
+    padding: 5px
+}
+#photo_information_table {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+.post_functions_photo_table {
+    margin-top: -20px;
+    position: relative;
+    margin-left: 135px;
+}

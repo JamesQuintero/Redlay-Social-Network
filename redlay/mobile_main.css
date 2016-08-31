@@ -1,0 +1,1192 @@
+.box {
+    box-shadow: inset 0px 0px 10px 1px black;
+    border-radius: 10px;
+    font-family: Arial;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border-width: 20px;
+    font-size: 35px;
+}
+.other_picture_unit {
+    padding-bottom: 15px
+}
+.header_background {
+    background: -webkit-gradient(linear, right top, right bottom, from(#0A0A0A), to(rgb(50, 50, 50)));
+    background: -moz-linear-gradient(top, #0A0A0A, #1E1E1E);
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 122px;
+    position: relative;
+    border-bottom: 10px solid #DC1500;
+    background-color: rgb(50, 50, 50);
+}
+#icon {
+    font-family: Arial;
+    font-size: 100px;
+    color: #dc1500;
+    margin: 0;
+    position: relative;
+    padding: 0;
+    text-align: center;
+}
+#icon_link {
+    outline: none;
+    text-decoration: none;
+}
+#index_button {
+    height: 90px;
+    position: relative;
+    margin-top: 38px;
+}
+#alerts_content {
+    position: relative;
+}
+#top {
+    top: 0px;
+    z-index: 9999;
+    position: relative;
+    left: 0px;
+}
+#main {
+    position: relative;
+    width: 90%;
+    padding: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 5%;
+}
+html,
+body {
+    height: 100%;
+    background-color: rgb(30, 30, 30);
+    font-size: 200%;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    font-family: Arial;
+    box-shadow: inset 0px 0px 100px #141414
+}
+#content {
+    position: relative;
+}
+.status_profile_picture_body {
+    position: relative;
+    margin-top: -150px;
+}
+.status_update {
+    position: relative;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.mobile_input {
+    height: 100px;
+    font-size: 60px;
+}
+.status_update_title {
+    position: relative;
+    font-size: 30px;
+    color: rgb(220, 21, 0);
+}
+.post_timestamp {
+    position: relative;
+    color: rgb(50, 50, 50);
+    ;
+    font-size: 30px
+}
+.user_name_link {
+    color: rgb(220, 21, 0);
+}
+#mobile_login_email_input {
+    position: relative;
+}
+.status_update_table {
+    position: relative;
+    margin-left: 250px;
+}
+.search_result_name {
+    font-size: 30px;
+    color: rgb(220, 21, 0);
+}
+.alert_text {
+    font-size: 35px;
+}
+.alert_timestamp {
+    font-size: 35px;
+}
+#mobile_login_password_input {
+    position: relative;
+    font-size: 60px;
+}
+#mobile_login_submit {
+    position: relative;
+    margin-bottom: 75px;
+}
+.red_button {
+    border: 2px solid black;
+    height: 75px;
+    font-size: 40px;
+    background-color: rgb(220, 21, 0);
+    color: white;
+    border-radius: 15px;
+}
+#index_table {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+}
+.index_unit {
+    width: 100%;
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+.bad_errors {
+    display: none;
+    position: relative;
+    color: white;
+    text-align: center;
+    background-color: rgba(150, 0, 0, .6);
+    width: 100%;
+    font-family: Arial;
+    font-weight: 700;
+    z-index: 999;
+    padding: 5px;
+    border: 2px solid red;
+    margin-bottom: 50px;
+}
+.good_errors {
+    display: none;
+    position: relative;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 100, 0, .5);
+    font-family: Arial;
+    font-weight: 700;
+    z-index: 999;
+    padding: 5px;
+    border: 2px solid green;
+    margin-bottom: 50px;
+}
+#errors {
+    position: absolute;
+    font-size: 35px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.menu_text {
+    position: relative;
+    font-weight: 700;
+    color: #FFF;
+    font-size: 100%;
+    padding-left: 5px;
+    top: 0;
+    cursor: pointer;
+    font-family: Arial;
+    padding-top: 25px;
+    margin: 0;
+}
+#menu {
+    position: absolute;
+    background-color: #000;
+    border: 10px solid rgb(220, 21, 0);
+    width: 300px;
+    right: 0px;
+    top: 170px;
+}
+.button {
+    font-weight: 700;
+    color: #FFF;
+    font-family: Arial;
+    background-color: #000;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 3px solid #dc1500;
+    font-size: 14px;
+    border-radius: 1px;
+}
+#menu_button {
+    height: 125px;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+.profile_picture {
+    max-width: 250px;
+    max-height: 250px;
+    border: 2px solid black;
+    position: relative;
+}
+.result {
+    position: relative;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+.profile_picture_body {
+    position: relative;
+    margin-top: -70px;
+}
+.result_name_link {
+    text-decoration: none;
+}
+#information_content {
+    margin-top: 35px;
+    width: 96%;
+    position: relative;
+}
+#profile_menu {
+    margin-top: 35px;
+    position: relative;
+}
+#posts_content {
+    position: relative;
+    width: 96%;
+    margin-top: 35px;
+}
+#profile_main_picture {
+    position: relative;
+}
+#profile_information_table {
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 25px;
+}
+#profile_name {
+    color: rgb(220, 21, 0);
+    font-weight: bold;
+}
+#home_menu {
+    position: relative;
+    margin-top: 35px;
+}
+#home_content {
+    position: relative;
+    margin-top: 35px;
+}
+#home_post_text {
+    position: relative;
+    padding: 30px;
+}
+#home_menu_table {
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+.home_menu_item {
+    width: 25%;
+}
+#post_input {
+    padding: 15px;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    font-size: 40px;
+    resize: none;
+}
+#update {
+    width: 100%;
+    margin-bottom: 100px;
+}
+#post_button {
+    position: relative;
+    margin-top: 10px;
+}
+.text {
+    background: -webkit-gradient(linear, right top, right bottom, from(red), to(rgb(170, 0, 0)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.map_item_image {
+    width: 100%;
+}
+#picture_like_text {
+    font-size: 25px;
+}
+#picture_dislike_text {
+    font-size: 25px;
+}
+.red_button {
+    background-color: #ee432e;
+    background-image: -webkit-linear-gradient(top, rgb(238, 67, 46) 0%, rgb(198, 57, 41) 50%, rgb(181, 23, 0) 50%, rgb(137, 17, 0) 100%);
+    background-image: -moz-linear-gradient(top, rgb(238, 67, 46)0%, rgb(198, 57, 41) 50%, rgb(181, 23, 0) 50%, rgb(137, 17, 0) 100%);
+    background-image: -ms-linear-gradient(top, rgb(238, 67, 46) 0%, rgb(198, 57, 41) 50%, rgb(181, 23, 0) 50%, rgb(137, 17, 0) 100%);
+    background-image: -o-linear-gradient(top, rgb(238, 67, 46) 0%, rgb(198, 57, 41) 50%, rgb(181, 23, 0) 50%, rgb(137, 17, 0) 100%);
+    background-image: linear-gradient(top, rgb(238, 67, 46) 0%, rgb(198, 57, 41) 50%, rgb(181, 23, 0) 50%, rgb(137, 17, 0) 100%);
+    border: 2px solid rgb(50, 50, 50);
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0px 0px 0px 2px rgba(255, 115, 100, 0.4), 0 1px 3px #333333;
+    box-shadow: inset 0px 0px 0px 2px rgba(255, 115, 100, 0.4), 0 1px 2px #333333;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-shadow: 0px -2px 3px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+.green_button {
+    background-color: #ee432e;
+    background-image: -webkit-linear-gradient(top, rgb(67, 228, 46) 0%, rgb(57, 198, 41) 50%, rgb(23, 161, 0) 50%, rgb(17, 107, 0) 100%);
+    background-image: -moz-linear-gradient(top, rgb(67, 228, 46) 0%, rgb(57, 198, 41) 50%, rgb(23, 161, 0) 50%, rgb(17, 107, 0) 100%);
+    background-image: -ms-linear-gradient(top, rgb(67, 228, 46) 0%, rgb(57, 198, 41) 50%, rgb(23, 161, 0) 50%, rgb(17, 107, 0) 100%);
+    background-image: -o-linear-gradient(top, rgb(67, 228, 46) 0%, rgb(57, 198, 41) 50%, rgb(23, 161, 0) 50%, rgb(17, 107, 0) 100%);
+    background-image: linear-gradient(top, rgb(67, 228, 46) 0%, rgb(57, 198, 41) 50%, rgb(23, 161, 0) 50%, rgb(17, 107, 0) 100%);
+    border: 2px solid rgb(50, 50, 50);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0px 0px 0px 2px rgba(115, 255, 100, 0.4), 0 1px 3px #333333;
+    box-shadow: inset 0px 0px 0px 2px rgba(115, 255, 100, 0.4), 0 1px 2px #333333;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-shadow: 0px -2px 3px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+.blue_button {
+    background-color: #ee432e;
+    background-image: -webkit-linear-gradient(top, rgb(46, 67, 238) 0%, rgb(41, 57, 198) 50%, rgb(0, 23, 181) 50%, rgb(0, 17, 137) 100%);
+    background-image: -moz-linear-gradient(top, rgb(46, 67, 238) 0%, rgb(41, 57, 198) 50%, rgb(0, 23, 181) 50%, rgb(0, 17, 137) 100%);
+    background-image: -ms-linear-gradient(top, rgb(46, 67, 238) 0%, rgb(41, 57, 198) 50%, rgb(0, 23, 181) 50%, rgb(0, 17, 137) 100%);
+    background-image: -o-linear-gradient(top, rgb(46, 67, 238) 0%, rgb(41, 57, 198) 50%, rgb(0, 23, 181) 50%, rgb(0, 17, 137) 100%);
+    background-image: linear-gradient(top, rgb(46, 67, 238) 0%, rgb(41, 57, 198) 50%, rgb(0, 23, 181) 50%, rgb(0, 17, 137) 100%);
+    border: 2px solid rgb(50, 50, 50);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0px 0px 0px 2px rgba(100, 115, 255, 0.4), 0 1px 3px #333333;
+    box-shadow: inset 0px 0px 0px 2px rgba(100, 115, 255, 0.4), 0 1px 2px #333333;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-shadow: 0px -2px 3px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+.gray_button {
+    padding-top: 10px;
+    background-image: -webkit-linear-gradient(top, rgb(240, 240, 240) 0%, rgb(180, 180, 180) 50%, rgb(140, 140, 140) 50%, rgb(110, 110, 110) 100%);
+    background-image: -moz-linear-gradient(top, rgb(240, 240, 240) 0%, rgb(180, 180, 180) 50%, rgb(140, 140, 140) 50%, rgb(110, 110, 110) 100%);
+    background-image: -ms-linear-gradient(top, rgb(240, 240, 240) 0%, rgb(180, 180, 180) 50%, rgb(140, 140, 140) 50%, rgb(110, 110, 110) 100%);
+    background-image: -o-linear-gradient(top, rgb(240, 240, 240) 0%, rgb(180, 180, 180) 50%, rgb(140, 140, 140) 50%, rgb(110, 110, 110) 100%);
+    background-image: linear-gradient(top, rgb(240, 240, 240) 0%, rgb(180, 180, 180) 50%, rgb(140, 140, 140) 50%, rgb(110, 110, 110) 100%);
+    border: 2px solid rgb(50, 50, 50);
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0px 0px 0px 2px rgba(200, 200, 200, 0.4), 0 1px 3px rgb(50, 50, 50);
+    box-shadow: inset 0px 0px 0px 2px rgba(200, 200, 200, 0.4), 0 1px 2px rgb(50, 50, 50);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-shadow: 0px -2px 3px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+.mobile_button {
+    height: 60px;
+}
+.index_input {
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 7px 0px gray;
+    border: 2px solid gray;
+    color: rgb(30, 30, 30);
+    padding-left: 10px;
+    background-color: rgb(252, 252, 252);
+    outline: none;
+}
+#alerts {
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+.alert {
+    height: 70px;
+}
+#messages_alert {
+    position: relative;
+}
+#footer {
+    position: relative;
+    margin-bottom: 5px;
+    margin-top: 35px;
+}
+#company_footer {
+    position: relative;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+.footer_text {
+    position: relative;
+    cursor: pointer;
+    color: rgb(220, 21, 0);
+}
+#footer_line_break {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#top_map {
+    width: 98%;
+    top: 122px;
+    right: 0px;
+    background-color: rgb(30, 30, 30);
+    border: 10px solid #DC1500;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 0px 10px 25px 0px black;
+}
+.map_top_item_slot {
+    border: 1px solid gray;
+    height: 165px;
+}
+#map_top_table {
+    width: 100%;
+    right: 0px;
+    position: absolute;
+}
+.map_top_item {
+    width: 100%;
+}
+.map_top_item_image {
+    max-height: 100px;
+    max-width: 100px;
+}
+.outside_picture {
+    margin-top: -175px;
+    margin-left: 220px;
+}
+.picture_post {
+    position: relative;
+    min-height: 500px;
+    border: 1px solid black;
+    border-radius: 0px;
+    cursor: pointer;
+}
+.image_overflow {
+    overflow: hidden;
+}
+#picture_main {
+    position: relative;
+}
+#picture {
+    position: relative;
+    max-width: 750px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+#picture_body {
+    position: relative;
+    margin-top: 20px;
+}
+.picture_description {
+    position: relative;
+    width: 350px;
+}
+#picture_description_name {
+    font-size: 25px;
+    position: relative;
+}
+#picture_description_description {
+    font-size: 25px;
+    margin-top: 0px;
+    position: relative;
+    width: 100%;
+}
+#picture_timestamp {
+    font-size: 20px;
+    position: relative;
+}
+#picture_main {
+    position: relative;
+    margin-top: 50px;
+}
+#delete_photo {
+    position: relative;
+    width: 150px;
+    cursor: pointer;
+    font-size: 14px
+}
+#slide_show {
+    position: relative;
+    width: 150px;
+    cursor: pointer;
+    font-size: 14px
+}
+.picture_comment {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 400px;
+    height: 40px;
+    line-height: 1;
+    resize: none
+}
+.picture_comment_submit {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 390px;
+    border: 1px solid black;
+}
+.picture_comment_body {
+    margin-right: 25px;
+    margin-left: 25px;
+    position: relative;
+}
+#comment_body {
+    border: 2px solid gray;
+    padding-top: 25px;
+    margin-bottom: 50px;
+}
+#comment {
+    margin-left: 13%;
+    width: 75%;
+    position: relative;
+    border-radius: 5px;
+}
+.picture_comment_me {
+    background-color: #FFFDD6
+}
+#left_arrow {
+    vertical-align: middle;
+    height: 100px;
+    position: absolute;
+    left: 10px;
+    font-size: 35px;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: #F0F0F0;
+    padding: 5px;
+    display: inline-block;
+}
+#right_arrow {
+    background-color: #F0F0F0;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 35px;
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 5px
+}
+.picture_like_dislike {
+    color: red;
+    cursor: pointer
+}
+#picture_like {
+    position: relative;
+    width: 120px;
+}
+#picture_dislike {
+    position: relative;
+    width: 120px;
+}
+#profile_picture_photo {
+    max-height: 125px;
+    max-width: 125px;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+#picture_description_name_link {
+    text-decoration: none
+}
+.picture_comment_profile_picture,
+.picture_comment_timestamp,
+.picture_comment_break {
+    left: 0
+}
+.picture_comment_text_body,
+.picture_comment_name {
+    left: 15px;
+}
+#left_arrow_text,
+#right_arrow_text {
+    margin-top: 25px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+#picture_bottom {
+    min-height: 160px;
+    position: relative;
+    margin-top: 0px;
+}
+#picture_information {
+    width: 500px;
+    margin-left: 160px;
+    position: relative;
+    margin-top: -131px;
+}
+.photo_comment_delete {
+    position: relative;
+    left: 400px;
+    margin-top: -26px;
+    top: -30px;
+    width: 15px;
+    cursor: pointer;
+    line-height: 1;
+    padding: 5px
+}
+#photo_information_table {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+.post_functions_photo_table {
+    margin-top: 45px;
+    position: relative;
+    margin-left: 160px;
+}
+#profile_menu_table {
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+}
+.profile_menu_unit {
+    width: 50%;
+}
+.profile_menu_text {
+    font-size: 35px;
+}
+.other_pictures_picture {
+    box-shadow: 5px 5px 5px gray;
+    width: 100%;
+}
+#photos {
+    position: relative;
+}
+#other_pictures_table {
+    padding: 25px;
+    width: 100%;
+}
+#comment_picture {
+    width: 100%;
+}
+#status_updates {
+    position: relative;
+    padding: 30px;
+    margin-left: 10px;
+    line-height: 1;
+    margin-right: 10px;
+}
+.status_update_text {
+    position: relative;
+    top: -190px;
+    left: 220px;
+    font-size: 35px;
+    width: 525px;
+    margin: 0;
+}
+.timestamp_status_update {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    position: relative;
+    color: rgb(20, 20, 20);
+    font-size: 25px;
+    line-height: 1;
+}
+#update_box {
+    position: relative;
+    margin: 0;
+    padding: 0
+}
+.break {
+    position: relative;
+    line-height: 1;
+    margin: 10px;
+    padding: 0;
+}
+.profile_picture_status {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+.user_name {
+    text-decoration: none;
+    position: relative;
+    font-size: 35px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+.user_name_body {
+    position: relative;
+    margin-left: 220px;
+    top: -200px;
+}
+.user_name_link {
+    width: 200px;
+    line-height: 1;
+    text-decoration: none;
+    margin: 0;
+    padding: 0
+}
+.status_update_like {
+    position: relative;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.status_update_like_me {
+    position: relative;
+    color: red;
+    top: -35px;
+    left: 95px;
+    width: 200px;
+    line-height: 1;
+    cursor: default;
+    margin: 0;
+    padding: 0
+}
+.status_update_dislike {
+    position: relative;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.me {
+    cursor: default
+}
+.name_link {
+    text-decoration: none;
+}
+.post_delete {
+    position: absolute;
+    left: 485px;
+    top: 0px;
+    width: 15px;
+    cursor: pointer;
+    line-height: 1;
+    margin: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.comment_delete {
+    position: relative;
+    margin-left: 345px;
+    margin-top: -26px;
+    top: -40px;
+    width: 15px;
+    cursor: pointer;
+    line-height: 1;
+    padding: 5px;
+    border-radius: 5px;
+}
+.comment_text {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.status_update {
+    position: relative;
+    line-height: 1;
+    margin: 0;
+    padding: 0
+}
+.comment_textarea {
+    width: 90%;
+    margin-bottom: 25px;
+    padding: 10px;
+    font-size: 25px;
+    margin-top: 10px;
+    resize: none;
+    position: relative;
+    line-height: 1;
+}
+.see_more_button {
+    width: 100%;
+}
+.comment_submit {
+    position: relative;
+    border: 1px solid black;
+    margin-left: 350px;
+}
+.comment_text_body {
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    position: relative;
+    margin-left: 140px;
+    width: 320px;
+    top: -125px;
+    line-height: 1;
+    padding: 0
+}
+.comment_profile_picture {
+    position: relative;
+    max-width: 125px;
+    max-height: 125px;
+    line-height: 1;
+    cursor: pointer;
+    margin: 0;
+    padding: 0
+}
+.comment_break {
+    background-color: gray;
+    height: 2px;
+    top: -10px;
+    position: relative;
+    line-height: 1;
+    margin: 0;
+    padding: 0
+}
+.comment_timestamp {
+    position: relative;
+    margin-top: -60px;
+    font-size: 20px;
+    line-height: 1;
+}
+.comment_name {
+    position: relative;
+    font-size: 25px;
+    width: 500px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0
+}
+.home_post_name_link {
+    text-decoration: none;
+}
+.comment_body {
+    font-size: 35px;
+    padding: 10px;
+    border: 1px solid gray;
+    margin-right: 50px;
+    margin-left: 50px;
+    position: relative;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.comment_like {
+    position: relative;
+    font-size: 25px;
+    font-family: Arial;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.comment_like_me {
+    cursor: default
+}
+.comment_dislike {
+    position: relative;
+    font-size: 25px;
+    font-family: Arial;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.comment_dislike_me {
+    cursor: default
+}
+.favorite_post_text {
+    position: relative;
+    margin: -5px;
+    top: -35px;
+    left: 280px;
+    color: red;
+    cursor: pointer;
+    width: 70px;
+}
+#status_update_form {
+    position: relative;
+}
+.comment_user_name_body {
+    position: relative;
+    margin-left: 140px;
+    top: -125px;
+}
+.post_functions_table {
+    text-align: center;
+    width: 625px;
+    position: relative;
+    margin-top: -90px;
+    margin-left: 205px;
+}
+.post_functions_unit {
+    font-size: 30px;
+    width: 150px;
+}
+.post_functions_post_comment_unit {
+    font-size: 30px;
+    width: 250px;
+}
+.post_functions_seperator {
+    text-align: center
+}
+.post_functions_comment_unit {
+    width: 175px;
+}
+.post_functions_comment_table {
+    top: -80px;
+    position: relative;
+    margin-left: 140px;
+    height: 20px;
+}
+.comment {
+    position: relative;
+}
+.comment_show {
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+}
+.comment_input_body {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: 0px;
+}
+.break {
+    height: 3px;
+    background-color: gray;
+}
+#home_post_input {
+    width: 100%;
+    padding: 15px;
+    position: relative;
+    height: 100px;
+    font-size: 40px;
+    resize: none;
+}
+#home_post {} #home_post_button {
+    margin-top: 10px;
+    position: relative;
+}
+.select_audience_box_body {
+    margin-top: 10px;
+}
+.display_to_button {
+    height: 60px;
+}
+#content_display_button {} .select_body_options {
+    margin-left: 3px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: -7px;
+    min-width: 300px;
+    z-index: 2;
+    position: absolute;
+    box-shadow: inset 0px 0px 5px 0px black;
+    background-color: gray;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(#CFCFCF));
+    background: -moz-linear-gradient(top, white, #CFCFCF);
+}
+.select_body_option_text {
+    margin: 0px;
+    font-size: 30px
+}
+.checkbox {
+    height: 50px
+}
+#home_post_box {
+    position: relative;
+    padding: 20px;
+}
+.select_body_options_table {
+    padding: 20px
+}
+.input_box {
+    font-size: 25px;
+    resize: none;
+    padding: 10px;
+    border: 1px solid gray;
+    outline: none;
+    font-family: Arial;
+    box-shadow: gray 0px 0px 7px 0px inset;
+}
+#upload_picture_description {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    resize: none;
+}
+#home_content_display_button {
+    height: 60px
+}
+.home_menu_seperator {
+    font-size: 50px
+}
+.home_menu_display_item {
+    text-align: center
+}
+#home_content_box {
+    margin-left: 25px;
+}
+#home_from_box {
+    margin-left: 25px;
+}
+#home_adds_box {
+    margin-left: -140px;
+}
+#home_pages_box {
+    margin-left: -130px;
+}
+.added_video_table {
+    position: relative;
+    margin-left: 210px;
+    margin-top: -190px
+}
+.home_other_text {
+    font-size: 35px;
+}
+.redlay_gold_table {
+    position: relative;
+    margin-left: 230px;
+    margin-top: -200px
+}
+.home_other_text_unit {
+    vertical-align: top;
+}
+.added_table {
+    height: 160px;
+    position: relative;
+    margin-left: 230px;
+    margin-top: -190px
+}
+.home_image {
+    border: 1px solid black;
+    position: absolute;
+    width: 350px;
+}
+.image_group_body {
+    position: relative;
+    height: 430px;
+    margin-left: 240px;
+    margin-top: -190px;
+}
+.group_photo_description {
+    font-size: 35px;
+    position: relative;
+    margin-left: 250px
+}
+.alert_box_title {
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.alert_box {
+    opacity: 0;
+    position: absolute;
+    z-index: 9999;
+    border: 10px solid rgb(220, 21, 0);
+    box-shadow: 0px 0px 30px 15px rgba(0, 0, 0, .7);
+    top: 150px;
+    left: 75px;
+}
+.alert_box_inside {} .alert_box_table {
+    box-shadow: inset 0px 0px 10px 5px gray;
+    min-width: 470px;
+    text-align: left;
+    padding: 15px;
+}
+.alert_box_cancel_unit {
+    text-align: right;
+    width: 50px;
+}
+.alert_box_confirm_unit {
+    text-align: right;
+    width: 50px;
+}
+#cover_upload_button {
+    z-index: 2;
+    position: absolute;
+    width: 150px;
+    height: 60px;
+}
+.alert_box_load_unit {
+    width: 20px;
+}
+.alert_box_confirmation_row_unit_left {
+    text-align: left;
+    width: 310px;
+}
+.footer_unit {
+    width: 120px;
+    text-align: center;
+}
+.alert_numbers {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: green;
+    position: relative;
+    font-size: 35px;
+}
+#add_request_content {
+    position: relative;
+}
+.user_name_unit {
+    width: 100%;
+    vertical-align: top;
+}
+.friend_user_name_body {
+    position: relative;
+    top: 0px;
+    margin-left: 0px;
+}
+.index_button {
+    font-size: 45px;
+    height: 80px
+}
+.post_preview_box {
+    position: relative;
+    border: 1px solid black;
+    box-shadow: inset 0px 0px 5px gray;
+}
+#dim {
+    display: none;
+    opacity: .3;
+    z-index: 1;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+}
+.title {
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}

@@ -1,0 +1,122 @@
+#posts {
+    position: relative;
+    width: 510px;
+}
+#home_name_box {
+    position: relative;
+    width: 200px;
+    color: red;
+    margin-top: 15px;
+    max-height: 300px;
+    overflow: scroll;
+}
+#home_page_name_box {
+    position: relative;
+    width: 200px;
+    color: red;
+    margin-top: 15px;
+    max-height: 250px;
+    overflow: scroll;
+}
+#post_text {
+    padding-top: 180px;
+}
+#home_post_text {
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.home_name {
+    position: relative;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.home_post_name_link {
+    text-decoration: none;
+}
+#side_bar {
+    position: relative;
+    width: 200px;
+    height: 300px;
+}
+#post_submit {
+    position: relative;
+    margin-top: 10px;
+}
+.common_friends_name_body {
+    position: relative;
+    width: 100px;
+    margin-left: 80px;
+    left: 0px;
+    top: 0px;
+    margin-top: -65px;
+}
+.common_friends_number {
+    position: relative;
+    margin-top: 0px;
+    margin-left: 80px;
+    width: 120px;
+}
+.recommended_friends {
+    position: relative;
+    height: 100px;
+}
+.common_friends_post_break {
+    position: relative;
+    margin-top: 20px;
+}
+.home_name_box_title {
+    margin-bottom: 0px;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#home_post_button {
+    position: absolute;
+    top: 116px;
+    right: 45px;
+    opacity: .5;
+}
+#home_menu_unit_1 {
+    width: 315px;
+    text-align: left;
+}
+.home_menu_title {
+    font-size: 20px;
+    text-decoration: underline;
+}
+#home_menu_unit_2 {
+    text-align: center;
+}
+.home_menu_table {
+    width: 400px;
+    position: relative;
+    margin-left: 50px;
+}
+.home_name_profile_picture {
+    width: 30px;
+    border: 1px solid gray;
+}
+#home_name_table {
+    width: 100%;
+}
+.home_profile_picture_unit {
+    width: 30px;
+}
+#home_body_row {
+    vertical-align: top;
+}
+#home_table {
+    margin: 0 auto;
+    position: relative;
+    margin-top: 100px;
+}
+#home_left {
+    padding: 0px 10px 0px 0px;
+}
+#home_middle {
+    padding: 0px 10px 0px 0px;
+}

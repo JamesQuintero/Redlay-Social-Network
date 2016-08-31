@@ -1,0 +1,60 @@
+body
+{
+    color: red;
+    font-weight: bold;
+}
+#RegistrationInformation
+{
+    top: 10%;
+    left: 40%;
+    font-family: 'Chivo', sans-serif;
+    position: absolute;
+}
+
+#firstName
+{
+    top: 100px;
+    position: relative;
+}
+#lastName
+{
+    position: relative;
+    top: 60px;
+    left: 1px;
+}
+#password
+{
+    position: relative;
+    top: 20px;
+    left: 6px;
+}
+#confirmPassword
+{
+    position: relative;
+    top: -20px;
+    left: -59px;
+}
+
+#submitButton
+{
+    position: relative;
+    top: -100px;
+    left: 100px;
+}
+#email
+{
+    position: relative;
+    top: -60px;
+    left: 40px;
+}
+#confirmEmail
+{
+    position: relative;
+    top: -100px;
+    left: -25px;
+}
+#errors
+{
+    top: 450px;
+    left: 750px;
+}

@@ -1,0 +1,72 @@
+#help_content {
+    position: relative;
+    width: 910px;
+    margin-top: 100px;
+}
+.help_list_item_title {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    color: rgb(220, 21, 0);
+}
+.help_list_item {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.help_picture_inside {
+    position: relative;
+    border: 1px solid black;
+}
+.help_picture_outside {
+    position: relative;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.help_list_item_step_title {
+    text-decoration: underline;
+}
+#help_item_1_1 {
+    width: 260px;
+}
+#help_item_1_2 {
+    width: 255px;
+}
+#help_item_1_3 {
+    width: 730px;
+}
+#help_item_2_3 {
+    width: 730px;
+}
+#help_item_3_2 {
+    width: 225px;
+}
+#help_item_3_3 {
+    width: 740px;
+}
+#help_item_4_1 {
+    width: 650px;
+}
+#help_item_4_2 {
+    width: 660px;
+}
+#help_item_4_3 {
+    width: 200px;
+}
+#help_item_5_1 {
+    width: 165px;
+}
+#help_item_5_2_inside {
+    width: 825px;
+}
+#help_item_6_1 {
+    width: 170px;
+}
+#help_item_6_2_inside {
+    width: 825px;
+}

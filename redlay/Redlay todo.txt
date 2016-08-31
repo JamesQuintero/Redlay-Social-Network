@@ -1,0 +1,20 @@
+1) Remove header gradient
+2) Static header (stays at top)
+3) Remove site themes
+4) Lighter background
+5) Remove borders in "Places"
+6) Remove Calendar
+7) Remove "Activity" on profile
+8) Label adds as new in the "adds" column on the profile
+9) Remove word limit on posts (including profile)
+10) Change default profile picture
+11) Remove "Person" home page sort category
+12) Remove "date" home page sort category
+13) Have title of "Places" object pre-loaded
+14) Date changable from profile
+15) No "Upload Photo" button on profile
+16) Alert items too big
+17) redlay.com/messages doesn't even load properly
+18) Message items too big
+19) Bed border still there in add_requests
+20) Map.php doesn't load right
