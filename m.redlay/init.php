@@ -5,7 +5,7 @@ session_start();
 session_cache_limiter();
 
 $host="AMAZON_RDS"; //localhost
-$username="root"; //database username
+$username="DATABASE_USERNAME"; //database username
 $password="RDS_PASSWORD"; //password for user to database
 $db_name="DATABASE_NAME"; //name of database
 
