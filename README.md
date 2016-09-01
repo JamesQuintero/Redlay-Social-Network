@@ -3,4 +3,4 @@ Redlay is a social network where you can hang out with the people you care about
 
 http://www.redlay.com
 
-This project began development in July 2010. After 3 years, the site was taken offline and put in a sort of hibernation to reduce hosting costs.
+This project began development in July 2011. After 1.5 years, the site went into a live beta. There wasn't much interest, so the site was taken offline and put in a sort of hibernation to reduce hosting costs.
